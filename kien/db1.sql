@@ -1,14 +1,3 @@
-
-CREATE TABLE IF NOT EXISTS `tbl_edict` (
-  `id` int(255) DEFAULT NULL,
-  `word` varchar(255) DEFAULT NULL,
-  `detail` longtext
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `tbl_edict`
---
-
 INSERT INTO `tbl_edict` (`id`, `word`, `detail`) VALUES
 (2, '1-byte character code', '<C><F><I><N><Q>@1-byte character code<br />- (Tech) mã ký tự 1 bai</Q></N></I></F></C>'),
 (3, '1-byte character set', '<C><F><I><N><Q>@1-byte character set<br />- (Tech) bộ ký tự 1 bai</Q></N></I></F></C>'),
